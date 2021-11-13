@@ -1,0 +1,472 @@
+.App {
+  width: 1140px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.header__logo {
+  display: flex;
+  align-self: center;
+}
+
+.wrap {
+  align-self: center;
+}
+
+.header__icon {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.header__name {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #444444;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+.header__desc {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+.header__nav {
+  max-width: 700px;
+}
+
+.header__nav-list {
+  display: flex;
+  padding: 10px 7px;
+}
+
+.header__nav-list-item {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 400;
+  font-family: "Lato";
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  padding: 10px 7px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.main {
+  background: no-repeat center url("./assets/background.jpg");
+  min-height: 500px;
+  background-size: cover;
+}
+
+.main-wrap {
+  width: 600px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+.main__title {
+  font-size: 72px;
+  font-weight: 100;
+  padding-top: 60px;
+  text-transform: capitalize;
+}
+
+.main__title-bold {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.main__desc {
+  padding: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  font-family: "Lato";
+}
+
+.main__btn {
+  width: 122px;
+  height: 37px;
+  background-color: #1bbc9b;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: "Lato";
+  display: inline-block;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.portfolio {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.portfolio__header-title {
+  font-size: 28px;
+  color: #444444;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.portfolio__header-desc {
+  font-size: 16px;
+  color: #444444;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.portfolio__header-list {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 37px;
+
+  justify-content: center;
+}
+
+.portfolio__header-list-item {
+  height: 37px;
+  background-color: #1bbc9b;
+  color:#fff;
+  padding: 5px 12px;
+
+  margin: 10px;
+}
+
+.portfolio__menu {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio__menu-item {
+  width: 180px;
+  height: 180px;
+}
+
+.portfolio__menu-link {
+  margin: 20px 30px;
+}
+
+.about {
+  background-color: #16a086;
+  padding-top: 50px;
+  text-align: center;
+  color: #fff;
+} 
+
+.about__header-title {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: "Lato";
+  text-transform: capitalize;
+}
+
+.about__header-desc {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato";
+  padding: 10px 50px 50px;
+}
+
+.about__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-card-wrap {
+  max-width: 220px;
+  color: #444444;
+  font-weight: 400;
+  background-color: #fff;
+  min-height: 400px;
+  text-align: center;
+  margin-bottom: 70px;
+
+}
+
+.about__card-img {
+  width: 220px;
+  height: 228px;
+}
+
+.about__card-name {
+  font-size: 18px;
+  font-family: "Lato";
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.about__card-job {
+  font-size: 14px;
+  font-style: italic;
+  font-family: "Lato";
+  margin-bottom: 15px;
+}
+
+.about__card-desc {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Lato";
+  text-align: left;
+  padding: 10px;
+}
+
+.contact {
+  background-color: #ecf0f1;
+  color: #444444;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.contact__header {
+  padding: 40px;
+}
+
+.contact__header-title {
+  font-size: 28px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.contact__header-desc {
+  font-size: 14px;
+}
+
+.contact-wrap {
+  padding: 0 50px 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  outline: none;
+  border: 2px solid #bec3c7;
+  width: 220px;
+  height: 47px;
+  padding: 10px 8px;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+.contact__form {
+  max-width: 460px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact__form-input {
+  margin-bottom: 25px;
+}
+
+.contact__form-text {
+  width: 460px;
+  min-height: 153px;
+  margin-bottom: 25px;
+}
+
+.contact__form-btn {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  width: 114px;
+  height: 37px;
+  background-color: #1bbc9b;
+  border: none;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.contact__map {
+  width: 456px;
+  height: 265px;
+  background-color: #dcdedf;
+}
+
+.footer {
+  min-height: 93px;
+  background-color: #2d3e50;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  padding: 20px 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  margin: auto 0;
+}
+
+.footer__up {
+  background-color: #1bbc9b;
+  width: 44px;
+  height: 44px;
+  margin: auto 0;
+}
+
+/* <div className="App">
+      <header className="header">
+
+          <div className="header__logo">
+            <img className="header__icon" src="#"></img>
+            <h3 className="header__name">Bla bla</h3>
+            <p className="header__desc">One page flat template</p>
+          </div>
+          <nav className="header__nav">
+            <ul className="header__nav-list">
+              <li>
+                <a className="header__nav-list-item">home</a>
+              </li>
+              <li>
+                <a className="header__nav-list-item">portfolio</a>
+              </li>
+              <li>
+                <a className="header__nav-list-item">about</a>
+              </li>
+              <li>
+                <a className="header__nav-list-item">contact</a>
+              </li>
+            </ul>
+          </nav>
+
+      </header>
+
+      <section className="main">
+        <div className="main-wrap">
+          <h1 className="main__title">We build <span>brand</span></h1>
+          <p className="main__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+          <a className="main__btn">learn more</a>
+        </div>
+      </section>
+
+      <section className="portfolio">
+        <div className="portfolio__header">
+          <h3 className="portfolio__header-title">Portfolio</h3>
+          <p className="portfolio__header-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+          <ul className="portfolio__header-list">
+            <li className="portfolio__header-list-item">all</li>
+            <li className="portfolio__header-list-item">web design</li>
+            <li className="portfolio__header-list-item">graphic design</li>
+            <li className="portfolio__header-list-item">flat design</li>
+          </ul>
+        </div>
+        <div className="portfolio__menu">
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+          <a className="portfolio__menu-link"><img className="portfolio__menu-item" src="#"></img></a>
+        </div>
+      </section>
+
+      <section className="about">
+        <div className="about__header">
+          <h3 className="about__header-title">about us</h3>
+          <p className="about__header-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+        </div>
+        <div className="about__card">
+          <div className="about-card-wrap">
+            <img className="about__card-img" src="#"></img>
+            <h4 className="about__card-name">Melannie Doe</h4>
+            <p className="about__card-job">project manager</p>
+            <p className="about__card-desc">Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+          </div>
+          <div className="about-card-wrap">
+            <img className="about__card-img" src="#"></img>
+            <h4 className="about__card-name">Jhonnie Doe</h4>
+            <p className="about__card-job">graphic designer</p>
+            <p className="about__card-desc">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
+          </div>
+          <div className="about-card-wrap">
+            <img className="about__card-img" src="#"></img>
+            <h4 className="about__card-name">Daniel Doe</h4>
+            <p className="about__card-job">web designer</p>
+            <p className="about__card-desc">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact">
+        <div className="contact__header">
+          <h3 className="contact__header-title">contact us</h3>
+          <p className="contact__header-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+
+        <div className="contact-wrap">
+          <form className="contact__form">
+            <input className="contact__form-input"></input>
+            <input className="contact__form-input"></input>
+            <input className="contact__form-text"></input>
+            <button>submit</button>
+          </form>
+
+          <div className="contact__map">
+
+          </div>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <p className="footer__copy">&copy Copyright 2016 Bla Bla Studio  |  One Page Flat Template</p>
+        <img className="footer__up" src="#"></img>
+      </footer>
+    </div> */
