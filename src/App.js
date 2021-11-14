@@ -81,7 +81,7 @@ function App() {
           <p className="about__header-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
         </div>
         <div className="about__card">
-          <div className="about-card-wrap">
+          <div className="about-card-wrap about-card-wrap--left">
             <img className="about__card-img" src={photo1}></img>
             <h4 className="about__card-name">Melannie Doe</h4>
             <p className="about__card-job">project manager</p>
@@ -93,7 +93,7 @@ function App() {
             <p className="about__card-job">graphic designer</p>
             <p className="about__card-desc">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamc</p>
           </div>
-          <div className="about-card-wrap">
+          <div className="about-card-wrap about-card-wrap--right">
             <img className="about__card-img" src={photo3}></img>
             <h4 className="about__card-name">Daniel Doe</h4>
             <p className="about__card-job">web designer</p>
