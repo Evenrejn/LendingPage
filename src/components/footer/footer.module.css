@@ -1,0 +1,23 @@
+.footer {
+    min-height: 93px;
+    background-color: #2d3e50;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    padding: 20px 45px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer__copy {
+    margin: auto 20px auto 0;
+}
+
+.footer__up {
+    background-color: #1bbc9b;
+    width: 44px;
+    height: 44px;
+    margin: auto 0;
+}

@@ -1,0 +1,74 @@
+.about {
+    background-color: #16a086;
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+  } 
+  
+  .about__header-title {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Lato";
+    text-transform: capitalize;
+  }
+  
+  .about__header-desc {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato";
+    padding: 10px 50px 50px;
+  }
+  
+  .about__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .about-card-wrap {
+    max-width: 220px;
+    color: #444444;
+    font-weight: 400;
+    background-color: #fff;
+    min-height: 400px;
+    text-align: center;
+    margin: 0 0 70px; 
+  }
+  
+  .about-card-wrap--left {
+    margin: 0 30px 70px;
+  }
+  
+  .about-card-wrap--right {
+    margin: 0 30px 70px;
+  }
+  
+  .about__card-img {
+    width: 220px;
+    height: 228px;
+  }
+  
+  .about__card-name {
+    font-size: 18px;
+    font-family: "Lato";
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .about__card-job {
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Lato";
+    margin-bottom: 15px;
+  }
+  
+  .about__card-desc {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Lato";
+    text-align: left;
+    padding: 10px;
+  }
+  

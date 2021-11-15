@@ -1,0 +1,46 @@
+.main {
+    background: no-repeat center url("../../assets/background.jpg");
+    min-height: 500px;
+    background-size: cover;
+  }
+  
+  .main-wrap {
+    max-width: 600px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .main__title {
+    font-size: 72px;
+    font-weight: 100;
+    padding-top: 60px;
+    text-transform: capitalize;
+  }
+  
+  .main__title-bold {
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .main__desc {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: "Lato";
+  }
+  
+  .main__btn {
+    width: 122px;
+    height: 37px;
+    background-color: #1bbc9b;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: "Lato";
+    display: inline-block;
+    line-height: 37px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
