@@ -43,8 +43,10 @@
     background-color: #1bbc9b;
     color:#fff;
     padding: 5px 12px;
-  
+    outline: none;
+    border: none;
     margin: 10px;
+    cursor: pointer;
   }
   
   .portfolio__menu {

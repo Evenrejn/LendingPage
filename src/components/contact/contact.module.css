@@ -75,5 +75,12 @@
   .contact__map {
     width: 456px;
     height: 265px;
-    background-color: #dcdedf;
+    height: 287px;
+    margin-top: -20px;
+  }
+
+  .contact__map-title {
+    font-size: 13px;
+    text-align: left;
+    padding-bottom: 10px;
   }
