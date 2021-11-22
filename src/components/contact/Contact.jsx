@@ -39,30 +39,32 @@ const Contact = () => {
   );
 };
 
-
-const init = () ={
-    const myMap = new ymaps.Map("map", {
-        center: [55.793946, 37.704651],
-        zoom: 13
-    });
-}
-
 const MapBlock = () => {
-// const init = () ={
-//     const myMap = new ymaps.Map("map", {
-//         center: [55.793946, 37.704651],
-//         zoom: 13
-//     });
-// }
-  //   const mapData = {
-  //     center: [55.793946, 37.704651],
-  //     point: [55.798682, 37.695816],
-  //     zoom: 13,
-  //     address: "Москва, Колодезный переулок д.2а",
-  return <>
+  const mapData = {
+    center: [55.793946, 37.704651],
+    point: [55.798682, 37.695816],
+    zoom: 13,
+    address: "Москва, Колодезный переулок д.2а",
+  };
 
-         <div id="map" className={s["contact__map"]}></div>
-         </>;
+  return (
+    <>
+      <div id="map" className={s["contact__map"]}>
+        <YMaps height="270">
+          <div className={s["contact__map"]}>
+            <p className={s["contact__map-title"]}>{mapData.address}</p>
+            <Map
+              width="100%"
+              height="280px"
+              defaultState={{ center: mapData.center, zoom: mapData.zoom }}
+            >
+              <Placemark defaultGeometry={mapData.point} />
+            </Map>
+          </div>
+        </YMaps>
+      </div>
+    </>
+  );
 };
 
 //   return (
